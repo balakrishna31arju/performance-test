@@ -1,0 +1,12 @@
+---
+execution:
+- concurrency: 100
+  hold-for: 1m
+  ramp-up: 60s
+  scenario: Thread Group
+scenarios:
+  Thread Group:
+    requests:
+    - label: getStatus
+      method: GET
+      url: https://api.travelpublicissapient.com//search/getStatus
