@@ -6,4 +6,4 @@ execution:
   scenario: Thread Group
 scenarios:
   Thread Group:
-    script: ../search-ms-jmeter.jmx
+    script: search-ms-jmeter.jmx
