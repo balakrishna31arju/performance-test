@@ -9,4 +9,4 @@ scenarios:
     requests:
     - label: getStatus
       method: GET
-      url: https://api.travelpublicissapient.com//search/getStatus
+      url: https://api.travelpublicissapient.com/search/getStatus
