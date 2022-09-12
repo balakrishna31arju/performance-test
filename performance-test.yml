@@ -1,8 +1,8 @@
 ---
 execution:
-- concurrency: 50
-  hold-for: 30s
-  ramp-up: 50s
+- concurrency: 20
+  hold-for: 15s
+  ramp-up: 10s
   scenario: Thread Group
 scenarios:
   Thread Group:
