@@ -1,9 +1,8 @@
 ---
 execution:
-- concurrency: 20
-  hold-for: 15s
-  ramp-up: 10s
-  scenario: Thread Group
+- concurrency: 1000
+  ramp-up: 1000s
+  scenario: Search microservice
 scenarios:
-  Thread Group:
+  Search microservice:
     script: search-ms-jmeter.jmx
